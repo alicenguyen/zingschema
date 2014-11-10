@@ -1,5 +1,6 @@
 var Joi = require('joi');
 var def = require('./_definitions.js');
+var color = require('color-parser');
 
 var definitions = {
 
@@ -41,6 +42,7 @@ function Properties() {}
 /*
 * Instance Methods
 */
+
 Properties.prototype.getSchema = function (key) {
 	if (key != null ) {
 		try { 
@@ -48,7 +50,7 @@ Properties.prototype.getSchema = function (key) {
 		} catch(err) {return key + 'is invalid property';}
 	}
 	return definitions;
-}
+};
 
 Properties.prototype.validateKey = function (key) {
 	var result = definitions[key] ;
@@ -56,8 +58,7 @@ Properties.prototype.validateKey = function (key) {
 		return false;
 	}
 	return true; 
-}
-
+};
 Properties.prototype.validateValue = function(obj) {
 	var schema = definitions[obj.key];
 	console.log(schema);
@@ -68,6 +69,13 @@ Properties.prototype.validateValue = function(obj) {
 	});
 }
 
+// Color instance methods ------------------------
+Properties.prototype.validateColor = function (value) {
+	if (color(value)) {
+		return  { isValid: true, message: value + ' is valid'};
+	}
+console.log(color(value));
+	return {isValid: false, message: value +' is not a valid color value'}
+};
 
 module.exports = Properties;
-
