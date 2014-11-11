@@ -11,6 +11,9 @@ var definitions = {
 		"radius": Joi.string().regex(/^([0-9]+px\s+){0,3}[0-9]+px$/),
 	},
 
+	// alpha ----------------------------------------------------------------
+	"alpha": 						Joi.number().min(0).max(1),
+
 	// background ----------------------------------------------------------------
 	"backgroundColor":				Joi.ref('types.color'),
 	"background-color":				Joi.ref('types.color'),
@@ -43,39 +46,24 @@ function Properties() {}
 * Instance Methods
 */
 
-Properties.prototype.getSchema = function (key) {
-	if (key != null ) {
-		try { 
-			return definitions[key];
-		} catch(err) {return key + 'is invalid property';}
-	}
-	return definitions;
-};
+Properties.prototype.get = function (key) {
+	if (key) { return definitions[key]; }
+
+	return defintions;
+}
 
 Properties.prototype.validateKey = function (key) {
 	var result = definitions[key] ;
-	if (typeof results == 'undefined') {
-		return false;
-	}
+	if (typeof results == 'undefined') { return false; }
+
 	return true; 
 };
-Properties.prototype.validateValue = function(obj) {
-	var schema = definitions[obj.key];
-	console.log(schema);
-
-	Joi.validate(obj.value, schema, function(err, value) {
-		if(err){ console.log(err); return; }
-		console.log(value);
-	});
-}
 
 // Color instance methods ------------------------
 Properties.prototype.validateColor = function (value) {
-	if (color(value)) {
-		return  { isValid: true, message: value + ' is valid'};
-	}
-console.log(color(value));
+	if (color(value)) { return  { isValid: true, message: value + ' is valid'}; }
 	return {isValid: false, message: value +' is not a valid color value'}
 };
+
 
 module.exports = Properties;
