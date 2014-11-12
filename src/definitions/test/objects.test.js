@@ -4,7 +4,7 @@ var chai = require('chai');
 var should = chai.should();
 
 var string = function (obj) {
-	return JSON.stringify(obj);
+	return JSON.stringify(obj,null,4);
 }
 
 
@@ -17,16 +17,21 @@ describe("Should fail", function () {
 	});
 });
 
+console.log(string(schema));
 describe("crosshair-test cases ", function () {
 	var values = {
 		good: [
-			{"plot-label": {"alpha": 0} },
-			{"plot-label": {"alpha": 0, "backgroundRepeat": 'no-repeat'} }
+			{ "crosshair-x": { "scale-label": {"alpha": 0} } },
+			{ "crosshair-x": { "plot-label": {"alpha": 0, "backgroundRepeat": 'no-repeat'}} }
 		],
 
 		bad:[
 			{ "plot-label": {"alpha": 0, "foo": true} },
-			{ "plot-label": {"alpha": 99999} }
+			{ "plot-label": {"alpha": 99999} },
+			{ "plot-label": {"alpha": "cat"} },
+			{ "crosshair-x": { "backgroundColor": {"alpha": 0} } },
+
+			{ "crosshair-x": { "plot-label": {"alpha": 0, "foo": true} }},
 		]
 	};
 

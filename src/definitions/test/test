@@ -1,0 +1,3150 @@
+{
+    "crosshair-x": {
+        "isJoi": true,
+        "_type": "object",
+        "_settings": null,
+        "_valids": {
+            "_set": []
+        },
+        "_invalids": {
+            "_set": []
+        },
+        "_tests": [],
+        "_refs": [],
+        "_flags": {},
+        "_description": null,
+        "_unit": null,
+        "_notes": [],
+        "_tags": [],
+        "_examples": [],
+        "_meta": [],
+        "_inner": {
+            "children": [
+                {
+                    "key": "plot-label",
+                    "schema": {
+                        "isJoi": true,
+                        "_type": "object",
+                        "_settings": null,
+                        "_valids": {
+                            "_set": []
+                        },
+                        "_invalids": {
+                            "_set": []
+                        },
+                        "_tests": [],
+                        "_refs": [],
+                        "_flags": {},
+                        "_description": null,
+                        "_unit": null,
+                        "_notes": [],
+                        "_tags": [],
+                        "_examples": [],
+                        "_meta": [],
+                        "_inner": {
+                            "children": [
+                                {
+                                    "key": "alpha",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "number",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "min",
+                                                "arg": 0
+                                            },
+                                            {
+                                                "name": "max",
+                                                "arg": 1
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color-1",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor1"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color-2",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor2"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundFit",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundPosition",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundRepeat",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "bold",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "boolean",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-color",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderColor"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-width",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderWidth"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-height",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderHeight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderRadius"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-top",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderTop"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-bottom",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderBottom"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderRight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderleft"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-top-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-bottom-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-top-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-bottom-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "boolean",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-width",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutWidth"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-height",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutHeight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-offset",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutOffset"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-position",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                }
+                            ],
+                            "renames": [],
+                            "dependencies": [],
+                            "patterns": []
+                        }
+                    }
+                },
+                {
+                    "key": "scale-label",
+                    "schema": {
+                        "isJoi": true,
+                        "_type": "object",
+                        "_settings": null,
+                        "_valids": {
+                            "_set": []
+                        },
+                        "_invalids": {
+                            "_set": []
+                        },
+                        "_tests": [],
+                        "_refs": [],
+                        "_flags": {},
+                        "_description": null,
+                        "_unit": null,
+                        "_notes": [],
+                        "_tags": [],
+                        "_examples": [],
+                        "_meta": [],
+                        "_inner": {
+                            "children": [
+                                {
+                                    "key": "alpha",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "number",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "min",
+                                                "arg": 0
+                                            },
+                                            {
+                                                "name": "max",
+                                                "arg": 1
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color-1",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor1"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color-2",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor2"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundFit",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundPosition",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundRepeat",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "bold",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "boolean",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-color",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderColor"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-width",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderWidth"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-height",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderHeight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderRadius"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-top",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderTop"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-bottom",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderBottom"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderRight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderleft"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-top-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-bottom-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-top-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-bottom-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "boolean",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-width",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutWidth"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-height",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutHeight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-offset",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutOffset"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-position",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                }
+                            ],
+                            "renames": [],
+                            "dependencies": [],
+                            "patterns": []
+                        }
+                    }
+                }
+            ],
+            "renames": [],
+            "dependencies": [],
+            "patterns": []
+        }
+    }
+}
+
+[0m[0m
+[0m  Should fail[0m
+  [32m  ✓[0m[90m {
+    "cat": {}
+} [0m
+
+[0m  crosshair-test cases [0m
+[0m    Values should pass: [0m
+    [31m  1) {
+    "crosshair-x": {
+        "scale-label": {
+            "alpha": 0
+        }
+    }
+}[0m
+    [31m  2) {
+    "plot-label": {
+        "alpha": 0,
+        "backgroundRepeat": "no-repeat"
+    }
+}[0m
+[0m    Values should fail: [0m
+    [32m  ✓[0m[90m {
+    "plot-label": {
+        "alpha": 0,
+        "foo": true
+    }
+} [0m
+    [32m  ✓[0m[90m {
+    "plot-label": {
+        "alpha": 99999
+    }
+} [0m
+    [32m  ✓[0m[90m {
+    "plot-label": {
+        "alpha": "cat"
+    }
+} [0m
+
+
+[92m [0m[32m 4 passing[0m[90m (12ms)[0m
+
+{
+    "crosshair-x": {
+        "isJoi": true,
+        "_type": "object",
+        "_settings": null,
+        "_valids": {
+            "_set": []
+        },
+        "_invalids": {
+            "_set": []
+        },
+        "_tests": [],
+        "_refs": [],
+        "_flags": {},
+        "_description": null,
+        "_unit": null,
+        "_notes": [],
+        "_tags": [],
+        "_examples": [],
+        "_meta": [],
+        "_inner": {
+            "children": [
+                {
+                    "key": "plot-label",
+                    "schema": {
+                        "isJoi": true,
+                        "_type": "object",
+                        "_settings": null,
+                        "_valids": {
+                            "_set": []
+                        },
+                        "_invalids": {
+                            "_set": []
+                        },
+                        "_tests": [],
+                        "_refs": [],
+                        "_flags": {},
+                        "_description": null,
+                        "_unit": null,
+                        "_notes": [],
+                        "_tags": [],
+                        "_examples": [],
+                        "_meta": [],
+                        "_inner": {
+                            "children": [
+                                {
+                                    "key": "alpha",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "number",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "min",
+                                                "arg": 0
+                                            },
+                                            {
+                                                "name": "max",
+                                                "arg": 1
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color-1",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor1"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color-2",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor2"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundFit",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundPosition",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundRepeat",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "bold",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "boolean",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-color",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderColor"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-width",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderWidth"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-height",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderHeight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderRadius"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-top",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderTop"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-bottom",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderBottom"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderRight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderleft"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-top-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-bottom-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-top-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-bottom-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "boolean",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-width",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutWidth"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-height",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutHeight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-offset",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutOffset"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-position",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                }
+                            ],
+                            "renames": [],
+                            "dependencies": [],
+                            "patterns": []
+                        }
+                    }
+                },
+                {
+                    "key": "scale-label",
+                    "schema": {
+                        "isJoi": true,
+                        "_type": "object",
+                        "_settings": null,
+                        "_valids": {
+                            "_set": []
+                        },
+                        "_invalids": {
+                            "_set": []
+                        },
+                        "_tests": [],
+                        "_refs": [],
+                        "_flags": {},
+                        "_description": null,
+                        "_unit": null,
+                        "_notes": [],
+                        "_tags": [],
+                        "_examples": [],
+                        "_meta": [],
+                        "_inner": {
+                            "children": [
+                                {
+                                    "key": "alpha",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "number",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "min",
+                                                "arg": 0
+                                            },
+                                            {
+                                                "name": "max",
+                                                "arg": 1
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color-1",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor1"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "background-color-2",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "backgroundColor2"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundFit",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundPosition",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "backgroundRepeat",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "bold",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "boolean",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-color",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderColor"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-width",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderWidth"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-height",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderHeight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderRadius"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-top",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderTop"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-bottom",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderBottom"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderRight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "borderleft"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-top-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-bottom-left",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-top-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "border-radius-bottom-right",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "boolean",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": []
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-width",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutWidth"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-height",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutHeight"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-offset",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": [
+                                                "calloutOffset"
+                                            ]
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                },
+                                {
+                                    "key": "callout-position",
+                                    "schema": {
+                                        "isJoi": true,
+                                        "_type": "string",
+                                        "_settings": null,
+                                        "_valids": {
+                                            "_set": []
+                                        },
+                                        "_invalids": {
+                                            "_set": [
+                                                ""
+                                            ]
+                                        },
+                                        "_tests": [
+                                            {
+                                                "name": "regex",
+                                                "arg": {}
+                                            }
+                                        ],
+                                        "_refs": [],
+                                        "_flags": {},
+                                        "_description": null,
+                                        "_unit": null,
+                                        "_notes": [],
+                                        "_tags": [],
+                                        "_examples": [],
+                                        "_meta": [],
+                                        "_inner": {}
+                                    }
+                                }
+                            ],
+                            "renames": [],
+                            "dependencies": [],
+                            "patterns": []
+                        }
+                    }
+                }
+            ],
+            "renames": [],
+            "dependencies": [],
+            "patterns": []
+        }
+    }
+}
+
+[0m[0m
+[0m  Should fail[0m
+  [32m  ✓[0m[90m {
+    "cat": {}
+} [0m
+
+[0m  crosshair-test cases [0m
+[0m    Values should pass: [0m
+    [32m  ✓[0m[90m {
+    "crosshair-x": {
+        "scale-label": {
+            "alpha": 0
+        }
+    }
+} [0m
+    [32m  ✓[0m[90m {
+    "crosshair-x": {
+        "plot-label": {
+            "alpha": 0,
+            "backgroundRepeat": "no-repeat"
+        }
+    }
+} [0m
+[0m    Values should fail: [0m
+    [32m  ✓[0m[90m {
+    "plot-label": {
+        "alpha": 0,
+        "foo": true
+    }
+} [0m
+    [32m  ✓[0m[90m {
+    "plot-label": {
+        "alpha": 99999
+    }
+} [0m
+    [32m  ✓[0m[90m {
+    "plot-label": {
+        "alpha": "cat"
+    }
+} [0m
+
+
+[92m [0m[32m 6 passing[0m[90m (9ms)[0m
+
