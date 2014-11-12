@@ -9,7 +9,10 @@ var Joi = require('joi');
 	module.exports = {
 
 		// alpha ----------------------------------------------------------------
-		"alpha": [{"alpha": Joi.number().min(0).max(1)}],
+		 alpha: [{"alpha": Joi.number().min(0).max(1)}],
+		 angle: [{"angle": Joi.number()}],
+		 bold: [{"bold": Joi.boolean()}],
+		
 
 		// background ----------------------------------------------------------------
 		"background": [

@@ -1,27 +1,18 @@
 var Joi = require('joi');
-var _ = require('./definitions.js');
-var merge = require('json-premerge');
+var _def = require('./definitions.js');
+var _ = require('underscore');
 
 
 
 function keySet (schemas) {
-	var seed = [];
+	var seed = {};
 
 	// schemas is a type array of arrays of defintions
-	for(var i in schemas) {
-		
-		if(schemas[i].length > 1) {
-			for (var j in schemas[i] ) {
-				seed.push(schemas[i][j]);	
-			}
-		}
-		
-		else {
-			seed.push(schemas[i][0]);
+	for (var i in schemas) {
+		for (var j in schemas[i]) {
+			seed = _.extend(seed, schemas[i][j]);
 		}
 	}
-
-	console.log(seed);
 	return seed;
 }
 
@@ -31,7 +22,7 @@ function keySet (schemas) {
 module.exports = {
 
 	// [ root » graph » crosshair-xy » plot-label ]
-	"plot-label": keySet([_.alpha, _.background, _.border])
+	"plot-label": Joi.object().keys(keySet([_def.alpha, _def.background, _def.border]))
 
 };
 
