@@ -2,10 +2,7 @@
   "name": "zingschema",
   "version": "0.0.0",
   "private": true,
-  "main": "app.js",
-  "scripts": {
-    "start": "node ./bin/www"
-  },
+  "main": "src/ZingSchema.js",
   "dependencies": {
     "body-parser": "~1.8.1",
     "color-parser": "^0.1.0",

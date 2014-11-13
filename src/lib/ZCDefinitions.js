@@ -48,19 +48,26 @@ module.exports = {
 	// callout --------------------------------------------------------------------
 	callout: [
 
-		{"callout": Joi.boolean()},
-		{"callout-width": type.length.allow('calloutWidth')},
-		{"callout-height": type.length.allow('calloutHeight')},
-		{"callout-offset":  type.length.allow('calloutOffset')},
-		{"callout-position": Joi.string().regex(/(top|right|bottom|left)/)}
+		{"callout": 			Joi.boolean()},
+		{"callout-width": 		type.length.allow('calloutWidth')},
+		{"callout-height": 		type.length.allow('calloutHeight')},
+		{"callout-offset":  	type.length.allow('calloutOffset')},
+		{"callout-position": 	Joi.string().regex(/(top|right|bottom|left)/)}
 	],
 
 	// fill family --------------------------------------------------------------------
 	fill: [
+		{"fill-angle":  	Joi.number().description("Sets the angle of the axis along which the linear gradient is drawn.") },
+		{"fillAngle{":  	Joi.number().description("Sets the angle of the axis along which the linear gradient is drawn.") },
+		{"fill-offset-x":  	type.length.description("Sets an X offset to apply to the fill.") },
+		{"fillOffsetX{":  	type.length.description("Sets an X offset to apply to the fill.") },
+		{"fill-offset-y":  	type.length.description("Sets an Y offset to apply to the fill.") },
+		{"fillOffsetY":  	type.length.description("Sets an Y offset to apply to the fill.") },
+		{"fill-type":  		Joi.string().regex(/(linear|radial)/).description("Sets the background gradient fill type to either linear or radial.") },
+		{"fillType":  		Joi.string().regex(/(linear|radial)/).description("Sets the background gradient fill type to either linear or radial.") }
+	]	
 
- 	]	
 
 
 
-
-}
+		}

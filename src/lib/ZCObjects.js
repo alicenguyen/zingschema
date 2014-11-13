@@ -1,5 +1,5 @@
 var Joi = require('joi');
-var _ = require('./definitions.js');
+var _ = require('./ZCDefinitions.js');
 var _under = require('underscore');
 
 
@@ -16,7 +16,8 @@ function keySet (schemas) {
 }
 
 module.exports = {
-	// [ root » graph » crosshair-xy » plot-label ]
+	
+	// [ root » graph » crosshair-xy ] -----------------
 	"crosshair-x" : Joi.object().keys(
 		{
 			"plot-label": Joi.object().keys(keySet([
@@ -24,15 +25,38 @@ module.exports = {
 				_.background,
 				_.bold,
 				_.border,
-				_.callout
+				_.callout,
+				_.fill
+
 			])),
 			"scale-label": Joi.object().keys(keySet([
 				_.alpha,
 				_.background,
 				_.bold,
 				_.border,
-				_.callout
+				_.callout,
+				_.fill
 			]))
-		})
+		}),
+
+		"crosshair-y" : Joi.object().keys(
+			{
+				"plot-label": Joi.object().keys(keySet([
+					_.alpha,
+					_.background,
+					_.bold,
+					_.border,
+					_.callout,
+					_.fill
+				])),
+				"scale-label": Joi.object().keys(keySet([
+					_.alpha,
+					_.background,
+					_.bold,
+					_.border,
+					_.callout,
+					_.fill
+				]))
+			}),
 };
 

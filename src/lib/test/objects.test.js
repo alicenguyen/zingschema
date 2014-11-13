@@ -17,7 +17,6 @@ describe("Should fail", function () {
 	});
 });
 
-console.log(string(schema));
 describe("crosshair-test cases ", function () {
 	var values = {
 		good: [
