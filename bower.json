@@ -1,0 +1,22 @@
+{
+  "name": "zingschema",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alicenguyen/zingschema",
+  "authors": [
+    "Alice Nguyen <a8nguyen@ucsd.edu>"
+  ],
+  "description": "ZingChart JSON validator.",
+  "main": "./src/ZingSchema.js",
+  "keywords": [
+    "ZingChart"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

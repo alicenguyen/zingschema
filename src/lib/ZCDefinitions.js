@@ -66,8 +66,4 @@ module.exports = {
 		{"fill-type":  		Joi.string().regex(/(linear|radial)/).description("Sets the background gradient fill type to either linear or radial.") },
 		{"fillType":  		Joi.string().regex(/(linear|radial)/).description("Sets the background gradient fill type to either linear or radial.") }
 	]	
-
-
-
-
-		}
+		};
