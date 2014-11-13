@@ -4,22 +4,20 @@ var zingschema = require('./lib/ZCObjects.js');
 
 function ZingSchema() { }
 
-ZingSchema.prototype.validate = function (code) {
-	Joi.validate(code, zingschema, function (err, res) {
-		if (err) {
-			console.log(err);
-			return err;
-		}
-		console.log('success.');
-	});
+ZingSchema.prototype.validate = function (code, callback ) {
+	var result = Joi.validate(code, zingschema);
+	if(callback) { return callback(result.error, result.value);	}
+
+	return callback;
 };
 
 
 
-// var zee = new ZingSchema();
-
-// zee.validate({"crosshair-x": { "plot-label": {"alpha": 0}}});
-// zee.validate({"poop-x": { "plot-label": {"alpha": 0}}});
+var zee = new ZingSchema();
+console.log('ZingSchema npm ===============================');
+zee.validate({"crosshair-x": { "plot-label": {"alpha": 0}}});
+zee.validate({"foo-x": { "plot-label": {"alpha": 0}}});
+console.log('===============================================');
 
 
 module.exports = ZingSchema;
