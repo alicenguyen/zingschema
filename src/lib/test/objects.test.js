@@ -29,7 +29,6 @@ describe("crosshair-test cases ", function () {
 			{ "plot-label": {"alpha": 99999} },
 			{ "plot-label": {"alpha": "cat"} },
 			{ "crosshair-x": { "backgroundColor": {"alpha": 0} } },
-
 			{ "crosshair-x": { "plot-label": {"alpha": 0, "foo": true} }},
 		]
 	};

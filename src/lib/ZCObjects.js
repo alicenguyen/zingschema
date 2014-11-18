@@ -16,47 +16,76 @@ function keySet (schemas) {
 }
 
 module.exports = {
-	
+
 	// [ root » graph » crosshair-xy ] -----------------
 	"crosshair-x" : Joi.object().keys(
 		{
-			"plot-label": Joi.object().keys(keySet([
-				_.alpha,
-				_.background,
-				_.bold,
-				_.border,
-				_.callout,
-				_.fill
-
-			])),
-			"scale-label": Joi.object().keys(keySet([
-				_.alpha,
-				_.background,
-				_.bold,
-				_.border,
-				_.callout,
-				_.fill
-			]))
-		}),
-
-		"crosshair-y" : Joi.object().keys(
-			{
-				"plot-label": Joi.object().keys(keySet([
+			"plot-label": Joi.object().keys(keySet(
+				[
 					_.alpha,
 					_.background,
 					_.bold,
 					_.border,
 					_.callout,
 					_.fill
-				])),
-				"scale-label": Joi.object().keys(keySet([
+
+				]
+			)),
+			"scale-label": Joi.object().keys(keySet(
+				[
 					_.alpha,
 					_.background,
 					_.bold,
 					_.border,
 					_.callout,
 					_.fill
-				]))
-			}),
-};
+				]
+			))
+		}
+	),
 
+	"crosshair-y" : Joi.object().keys(
+		{
+			"plot-label": Joi.object().keys(keySet(
+				[
+					_.alpha,
+					_.background,
+					_.bold,
+					_.border,
+					_.callout,
+					_.fill
+				]
+			)),
+			"scale-label": Joi.object().keys(keySet(
+				[
+					_.alpha,
+					_.background,
+					_.bold,
+					_.border,
+					_.callout,
+					_.fill
+				]
+			))
+		}
+	),
+
+	// [root >> graph >> graph objects] -------
+	"3d-aspect": Joi.object().keys(keySet(
+		[
+			_.angle,
+			_.depth,
+			_.true3d,
+			_.zoom
+		]
+	)),
+
+	"arrows": Joi.object().keys(keySet(
+		[
+			_.alpha,
+			_.angle,
+			_.background,
+			_.border,
+			_.fill
+		]
+	))
+}; 

@@ -13,7 +13,16 @@ module.exports = {
 
 	// alpha ----------------------------------------------------------------
 	alpha: [{"alpha": Joi.number().min(0).max(1)}],
-	angle: [{"angle": Joi.number()}],
+	angle: [
+		{"angle": Joi.number().min(0).max(90)},
+		{"angle-x": Joi.number().min(0).max(90)},
+		{"angleX": Joi.number().min(0).max(90)},
+		{"angle-y": Joi.number().min(0).max(90)},
+		{"angleY": Joi.number().min(0).max(90)},
+		{"angle-z": Joi.number().min(0).max(90)},
+		{"angleZ": Joi.number().min(0).max(90)}
+	],
+
 	bold: [{"bold": Joi.boolean()}],
 	callout: [{"callout": Joi.boolean()}],
 	color: [{"color": Joi.string()}],
@@ -55,6 +64,11 @@ module.exports = {
 		{"callout-position": 	Joi.string().regex(/(top|right|bottom|left)/)}
 	],
 
+	depth: [{"depth": Joi.number()}],
+
+
+	
+
 	// fill family --------------------------------------------------------------------
 	fill: [
 		{"fill-angle":  	Joi.number().description("Sets the angle of the axis along which the linear gradient is drawn.") },
@@ -65,5 +79,10 @@ module.exports = {
 		{"fillOffsetY":  	type.length.description("Sets an Y offset to apply to the fill.") },
 		{"fill-type":  		Joi.string().regex(/(linear|radial)/).description("Sets the background gradient fill type to either linear or radial.") },
 		{"fillType":  		Joi.string().regex(/(linear|radial)/).description("Sets the background gradient fill type to either linear or radial.") }
-	]	
+	], 
+
+	true3d: [{"true3d": Joi.boolean()}],
+
+	zoom: [{"zoom":  Joi.number()}]
+
 		};

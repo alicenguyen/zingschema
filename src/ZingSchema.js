@@ -21,3 +21,5 @@ console.log('===============================================');
 
 
 module.exports = ZingSchema;
+
+return ZingSchema;
