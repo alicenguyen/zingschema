@@ -9,6 +9,7 @@ console.log('ZingSchema instance');
 ZingSchema.prototype.validate = function (code, callback ) {
 	console.log('validating...');
 	var result = Joi.validate(code, zingschema, {abortEarly:false});
+	console.log(result);
 	if(callback) { return callback(result.error, result.value);	}
 
 	return result;
