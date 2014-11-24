@@ -17,6 +17,26 @@ function keySet (schemas) {
 
 module.exports = {
 
+	/*
+	 * Context-menu Objects
+	 */
+	"context-menu" : Joi.object.keys(
+	{
+		"button": Joi.object().keys(keySet(
+		[
+				_.alpha,
+				_.background,
+				_.bold,
+				_.border,
+				_.callout,
+				_.fill
+
+		]));
+	});
+	
+	/*
+	 * Crosshair Objects
+	 */
 	// [ root » graph » crosshair-xy ] -----------------
 	"crosshair-x" : Joi.object().keys(
 		{
