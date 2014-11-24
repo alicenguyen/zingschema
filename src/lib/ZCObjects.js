@@ -20,7 +20,7 @@ module.exports = {
 	/*
 	 * Context-menu Objects
 	 */
-	"context-menu" : Joi.object.keys(
+	"context-menu" : Joi.object().keys(
 	{
 		"button": Joi.object().keys(keySet(
 		[
@@ -29,10 +29,11 @@ module.exports = {
 				_.bold,
 				_.border,
 				_.callout,
-				_.fill
+				_.fill,
+				_.font
 
-		]));
-	});
+		]))
+	}),
 	
 	/*
 	 * Crosshair Objects
