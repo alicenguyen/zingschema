@@ -67,8 +67,6 @@ module.exports = {
 	depth: [{"depth": Joi.number()}],
 
 
-	
-
 	// fill family --------------------------------------------------------------------
 	fill: [
 		{"fill-angle":  	Joi.number().description("Sets the angle of the axis along which the linear gradient is drawn.") },

@@ -5,17 +5,13 @@
   "main": "src/ZingSchema.js",
   "dependencies": {
     "body-parser": "~1.8.1",
-    "color-parser": "^0.1.0",
     "cookie-parser": "~1.3.3",
     "debug": "~2.0.0",
     "express": "~4.9.0",
-    "jade": "~1.6.0",
     "jquery": "^2.1.1",
     "json-premerge": "0.0.6",
     "morgan": "~1.3.0",
-    "onecolor": "^2.4.2",
     "serve-favicon": "~2.1.3",
-    "should": "^4.3.0",
     "underscore": "^1.7.0"
   },
   "description": "A JSON Schema validator for the ZingCharts library.",
